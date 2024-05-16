@@ -10,7 +10,7 @@ import { NgClass } from '@angular/common';
 @Component({
   selector: 'app-start',
   standalone: true,
-  imports: [SharedModule, NgClass],
+  imports: [SharedModule],
   templateUrl: './start.component.html',
   styleUrl: './start.component.css'
 })
@@ -57,6 +57,7 @@ export class StartComponent {
   signupUser():void{
     console.log("sign up")
   }
+  
   moveLabel(){
     const inputs = document.querySelectorAll(".input-field");
 

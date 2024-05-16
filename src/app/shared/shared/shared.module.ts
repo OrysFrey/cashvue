@@ -25,6 +25,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     ReactiveFormsModule
   ],
   exports: [
+    CommonModule,
     MatButtonModule,
     MatCardModule,
     MatFormFieldModule,
